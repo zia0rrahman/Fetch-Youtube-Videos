@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(228, 222, 222);
+  font-family: 'Nunito', sans-serif;
+}
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Youtube{
+  margin-top: 30px;
+}
+iframe{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 5px #000;
+}
+button {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid;
+  background-color: #635858;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+.Header-Welcome{
+  text-align: center;
+  background-color: #fff;
+  margin-top: 0;
+  padding: 5px 5px;
+}
